@@ -1,0 +1,20 @@
+<%-include('header.ejs') %>
+<!-- Middle: Textbox and Button -->
+<div class="col-md-6">
+  
+  <div class="mt-5">
+    <h3>user of following </h3>
+    <% for( var i=0;i<result.length;i++)
+    { %>
+      <p><%=result[i].fname%></p>
+      <%}%>
+      
+    </div>
+    
+    
+    
+    
+  </div>
+  
+  
+  <%-include('tranding.ejs') %>
